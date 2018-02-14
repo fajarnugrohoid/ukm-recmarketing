@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\build\\intermediates\\res\\merged\\debug\\layout\\row_backup.xml",
+        "source": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\layout\\row_backup.xml"
+    },
+    {
+        "merged": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\build\\intermediates\\res\\merged\\debug\\layout\\slideout.xml",
+        "source": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\layout\\slideout.xml"
+    },
+    {
+        "merged": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\build\\intermediates\\res\\merged\\debug\\layout\\home.xml",
+        "source": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\layout\\home.xml"
+    },
+    {
+        "merged": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\build\\intermediates\\res\\merged\\debug\\layout\\list_transaction_item.xml",
+        "source": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\layout\\list_transaction_item.xml"
+    },
+    {
+        "merged": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\build\\intermediates\\res\\merged\\debug\\layout\\list_product.xml",
+        "source": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\layout\\list_product.xml"
+    },
+    {
+        "merged": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\build\\intermediates\\res\\merged\\debug\\layout\\list_data.xml",
+        "source": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\layout\\list_data.xml"
+    },
+    {
+        "merged": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\build\\intermediates\\res\\merged\\debug\\layout\\sample_actionbar.xml",
+        "source": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\layout\\sample_actionbar.xml"
+    },
+    {
+        "merged": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\build\\intermediates\\res\\merged\\debug\\layout\\sample.xml",
+        "source": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\layout\\sample.xml"
+    },
+    {
+        "merged": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\build\\intermediates\\res\\merged\\debug\\layout\\login.xml",
+        "source": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\build\\intermediates\\res\\merged\\debug\\layout\\search_detail.xml",
+        "source": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\layout\\search_detail.xml"
+    },
+    {
+        "merged": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\build\\intermediates\\res\\merged\\debug\\layout\\row.xml",
+        "source": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\layout\\row.xml"
+    },
+    {
+        "merged": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\build\\intermediates\\res\\merged\\debug\\layout\\register_ukm.xml",
+        "source": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\layout\\register_ukm.xml"
+    },
+    {
+        "merged": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\build\\intermediates\\res\\merged\\debug\\layout\\set_voucher.xml",
+        "source": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\layout\\set_voucher.xml"
+    }
+]

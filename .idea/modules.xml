@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CustomerUKMStudio.iml" filepath="$PROJECT_DIR$/CustomerUKMStudio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com_facebook_android/com_facebook_android.iml" filepath="$PROJECT_DIR$/com_facebook_android/com_facebook_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customerUKM/customerUKM.iml" filepath="$PROJECT_DIR$/customerUKM/customerUKM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/facebook/facebook.iml" filepath="$PROJECT_DIR$/facebook/facebook.iml" />
+    </modules>
+  </component>
+</project>

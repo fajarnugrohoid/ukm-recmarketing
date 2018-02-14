@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/inner_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDDDDD"
+    tools:context=".Register_customer" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+    	android:layout_alignParentTop="true"
+        android:background="#CCCCCC"
+        android:paddingLeft="2dip"
+        android:paddingRight="2dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#ececec" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.30"
+                    android:gravity="center"
+                    android:text="Pendaftaran UKM"
+                    android:textColor="@color/black"
+                    android:textSize="19sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    
+    
+    
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/relativeLayout1" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#FFFFFF"
+            tools:context=".Register_customer" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/v_identitas"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical"
+                    android:text="Account"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/container_dropshadow"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/lbl_username"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Username"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/t_username"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/container_dropshadow"
+                        android:ems="10"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:id="@+id/lbl_password"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:text="Password"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/t_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/container_dropshadow"
+                        android:ems="10"
+                        android:singleLine="true"
+                        android:inputType="textPassword"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/v_profil_ukm"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical"
+                    android:text="Profil UKM"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/container_dropshadow"
+                    android:orientation="vertical"
+                    android:paddingBottom="20dp" >
+
+                    <TextView
+                        android:id="@+id/v_toko"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:text="Toko"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/t_toko"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/container_dropshadow"
+                        android:ems="10"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:id="@+id/lbl_nama_lengkap"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Nama Lengkap"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/val_nama_barang"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/container_dropshadow"
+                        android:ems="10"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+					
+                    <TextView
+                        android:id="@+id/lbl_gender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Jenis Kelamin"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black" />
+                    
+                  	<LinearLayout
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content" >
+					    
+                  <RadioGroup
+			            android:id="@+id/radioSexGroup"
+			            android:layout_width="fill_parent"
+			            android:layout_height="wrap_content"
+			            android:orientation="horizontal"
+			              android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+			            >
+
+		            <RadioButton
+		                android:id="@+id/radioM"
+		                android:layout_width="60dp"
+		                android:layout_height="50dp"
+		                android:layout_gravity="left"
+		                android:checked="true"
+		                android:layout_marginRight="20dp"
+		                android:drawableRight="@drawable/male"
+		                android:text="1"
+		                android:textSize="14dp" />
+
+		            <RadioButton
+		                android:id="@+id/radioF"
+		                android:layout_width="60dp"
+		                android:layout_height="50dp"
+		                android:layout_marginLeft="20dp"
+		                android:layout_gravity="right"
+		                android:checked="false"
+		                android:drawableRight="@drawable/female"
+		                android:text="0"
+		                android:textSize="14dp" />
+
+		        </RadioGroup>
+                    </LinearLayout>
+                    
+                    
+                    <TextView
+                        android:id="@+id/lbl_alamat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:text="Alamat"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/t_alamat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:ems="10"
+                        android:inputType="textPostalAddress" />
+
+                    <!-- datepicker -->
+					<!-- <TextView
+				        android:id="@+id/tvDate"
+				        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+				        android:text="Datepicker"
+				        android:layout_marginBottom="20dp"
+				        android:textColor="@color/black"
+				        android:textAppearance="?android:attr/textAppearanceSmall" />
+				 
+				    <DatePicker
+				        android:id="@+id/dpResult"
+				        style="@color/blue"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:layout_marginLeft="40dp"
+				        android:layout_marginRight="20dp"
+				        android:overScrollMode="always" /> -->
+					<TextView android:id="@+id/lbl_tanggal_lahir"
+				        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+				        android:text="Tanggal Lahir"
+				        android:textColor="@color/black"
+				        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+					<LinearLayout
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content" >
+
+					    <EditText
+					        android:id="@+id/t_tanggal_lahir"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:layout_marginLeft="20dp"
+					        android:layout_marginRight="5dp"
+					        android:layout_weight="0.57"
+					        android:ems="10"
+                        	android:singleLine="true"
+					        android:background="@drawable/container_dropshadow"
+					        android:editable="false" >
+
+					    </EditText>
+
+					    <ImageButton
+					        android:id="@+id/imageButton1"
+					        android:layout_width="30dp"
+					        android:layout_height="30dp"
+					        android:layout_alignBottom="@+id/editText"
+					        android:layout_toRightOf="@+id/t_tanggal_lahir"
+					        android:cropToPadding="true"
+					        android:background="@drawable/container_dropshadow"
+					        android:src="@drawable/calendar_icon" />
+					</LinearLayout>
+                   
+                    <!-- /datepicker -->
+					
+					
+					<TextView
+                        android:id="@+id/lbl_no_hp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:text="No. Hp"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/t_no_hp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:ems="10"
+                        android:inputType="phone" />
+                    <!-- Latitude & Longtitude -->
+
+                    <TextView
+                        android:id="@+id/lbl_lat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:text="Latitude"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/val_harga_toko"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/container_dropshadow"
+                        android:ems="10"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                    <TextView
+                        android:id="@+id/lbl_long"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:text="Longitude"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:id="@+id/val_asal_daerah"
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="40dp"
+                        android:background="@drawable/container_dropshadow"
+                        android:ems="10"
+                        android:singleLine="true"
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
+                    <!-- /Latitude & Longtitude -->
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+    
+     <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+    	android:layout_alignParentBottom="true"
+        android:background="#CCCCCC"
+        android:paddingLeft="2dip"
+        android:paddingRight="2dip" >
+
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+             
+            		<Button
+                        android:id="@+id/send"
+  						android:layout_weight=".5"
+  						android:layout_width="0dip"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/custom_btn_seagull"
+                        android:gravity="center"
+                        android:text="Kirim" />
+
+                   
+
+                    <Button
+                        android:id="@+id/cancel"
+  						android:layout_weight=".5"
+  						android:layout_width="0dip"
+                        android:layout_height="30dp" 
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/custom_btn_sorbus"
+                        android:gravity="center"
+                        android:text="Batal" />
+        </LinearLayout>
+         
+           
+    </RelativeLayout>
+    
+</RelativeLayout>

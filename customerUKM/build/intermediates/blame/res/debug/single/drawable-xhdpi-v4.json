@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\close.png",
+        "source": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\build\\intermediates\\exploded-aar\\CustomerUKMStudio\\com_facebook_android\\unspecified\\res\\drawable-xhdpi-v4\\close.png"
+    }
+]

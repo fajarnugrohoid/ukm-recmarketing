@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/inner_content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FCF8E3"
+    tools:context=".List_produk" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:background="#CCCCCC"
+        android:paddingLeft="2dip"
+        android:paddingRight="2dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:id="@+id/sample_button_view"
+                style="@color/black"
+                android:layout_width="100dip"
+                android:layout_height="fill_parent"
+                android:background="#DDDDDD" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Menu"
+                    android:textColor="@color/black"
+                    android:textSize="19sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#ececec" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.30"
+                    android:gravity="center"
+                    android:text="Lihat Data"
+                    android:textColor="@color/black"
+                    android:textSize="19sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+   <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        android:paddingLeft="2dip"
+        android:paddingRight="2dip" >
+
+	    <!-- Editext for Search -->
+
+	    <EditText
+	        android:id="@+id/inputSearchTrans"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_toLeftOf="@+id/btnSearch"
+	        android:ems="10"
+	        android:hint="Pencarian"
+	        android:inputType="textVisiblePassword" >
+
+	        <requestFocus />
+	    </EditText>
+
+        </RelativeLayout>
+		
+		
+		 <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout2"
+        android:paddingLeft="2dip"
+        android:paddingRight="2dip" >
+		<ListView
+    	    android:id="@+id/listView_recommender"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="100dp"
+    	    android:layout_centerHorizontal="true" >
+        </ListView>
+
+    	<ListView
+    	    android:id="@+id/listView1"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="fill_parent"
+    	    android:layout_below="@+id/listView_recommender"
+    	    android:layout_centerHorizontal="true" >
+
+        </ListView>
+       
+        </RelativeLayout>
+
+</RelativeLayout>

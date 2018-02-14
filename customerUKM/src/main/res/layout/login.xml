@@ -1,0 +1,219 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     	xmlns:tools="http://schemas.android.com/tools"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:background="@color/white" 
+ 		tools:context=".MainActivity">
+    
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/ukm" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:paddingBottom="70dp"
+        android:paddingTop="30dp" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical"
+            android:text="Login"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/container_dropshadow"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="2.88"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/v_nohp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="UserName"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/login_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/container_dropshadow"
+                    android:ems="10"
+                    android:singleLine="true"
+                    android:textAppearance="?android:attr/textAppearanceSmall" >
+
+                    <requestFocus />
+                </EditText>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Password"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:id="@+id/login_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/container_dropshadow"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <CheckBox
+                    android:id="@+id/login_remember"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Remember me"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <Button
+                    android:id="@+id/login_sigin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/custom_btn_seagull"
+                    android:text="Masuk"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <Button
+                    android:id="@+id/login_keluar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/custom_btn_sorbus"
+                    android:text="Keluar"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <Button
+                    android:id="@+id/Btn_daftar_ukm"
+                    android:layout_width="fill_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/custom_btn_seagull"
+                    android:text="Pendaftaran UKM"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+				
+                
+                
+                
+    <!-- Facebook Login Button -->
+    <Button android:id="@+id/btn_fblogin"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        	
+        		android:layout_marginTop="30dip"
+        		android:layout_gravity="center_horizontal"
+        		android:text="Login with Facebook"/>
+   
+    
+    <!-- Facebook Post to Wall Button -->
+    <Button android:id="@+id/btn_fb_post_to_wall"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="Post to Wall"
+        		android:layout_marginTop="30dip"
+        		android:layout_gravity="center_horizontal"
+        		android:visibility="gone"/>
+    <!-- Facebook Logout Button -->
+    <Button android:id="@+id/btn_get_profile"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        	
+        		android:text="Get Profile Data"
+        		android:layout_marginTop="30dip"
+        		android:layout_gravity="center_horizontal"
+        		android:visibility="gone"/>
+    
+    <!-- Button to show access tokens -->
+    <Button android:id="@+id/btn_show_access_tokens"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:text="Show Access Tokens"
+        		android:layout_marginTop="30dip"
+        		android:layout_gravity="center_horizontal"
+        		android:visibility="gone"/>
+    
+    
+    <Button 
+    android:id="@+id/login_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="30dp"
+    android:layout_marginBottom="30dp" />   
+    
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+        
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="30dp" >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:paddingBottom="20dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Copyright @ 2015"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,448 @@
+[
+    {
+        "outputFile": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 39,
+                    "endOffset": 90
+                },
+                "from": {
+                    "file": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 0,
+                        "startOffset": 59,
+                        "endColumn": 35,
+                        "endOffset": 94
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 95,
+                    "endColumn": 38,
+                    "endOffset": 129
+                },
+                "from": {
+                    "file": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 241,
+                        "endColumn": 34,
+                        "endOffset": 275
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 134,
+                    "endColumn": 39,
+                    "endOffset": 169
+                },
+                "from": {
+                    "file": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 323,
+                        "endColumn": 39,
+                        "endOffset": 358
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 174,
+                    "endColumn": 39,
+                    "endOffset": 209
+                },
+                "from": {
+                    "file": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 204,
+                        "endColumn": 35,
+                        "endOffset": 239
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 214,
+                    "endColumn": 38,
+                    "endOffset": 248
+                },
+                "from": {
+                    "file": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 96,
+                        "endColumn": 34,
+                        "endOffset": 130
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 253,
+                    "endColumn": 44,
+                    "endOffset": 293
+                },
+                "from": {
+                    "file": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 277,
+                        "endColumn": 40,
+                        "endOffset": 317
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 298,
+                    "endColumn": 46,
+                    "endOffset": 340
+                },
+                "from": {
+                    "file": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 404,
+                        "endColumn": 46,
+                        "endOffset": 446
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 345,
+                    "endColumn": 52,
+                    "endOffset": 393
+                },
+                "from": {
+                    "file": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 508,
+                        "endColumn": 52,
+                        "endOffset": 556
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 398,
+                    "endColumn": 58,
+                    "endOffset": 452
+                },
+                "from": {
+                    "file": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 624,
+                        "endColumn": 58,
+                        "endOffset": 678
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 457,
+                    "endColumn": 60,
+                    "endOffset": 513
+                },
+                "from": {
+                    "file": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 562,
+                        "endColumn": 60,
+                        "endOffset": 618
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 518,
+                    "endColumn": 54,
+                    "endOffset": 568
+                },
+                "from": {
+                    "file": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 452,
+                        "endColumn": 54,
+                        "endOffset": 502
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 573,
+                    "endColumn": 37,
+                    "endOffset": 606
+                },
+                "from": {
+                    "file": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 169,
+                        "endColumn": 33,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 611,
+                    "endColumn": 39,
+                    "endOffset": 646
+                },
+                "from": {
+                    "file": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 132,
+                        "endColumn": 35,
+                        "endOffset": 167
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 651,
+                    "endColumn": 38,
+                    "endOffset": 685
+                },
+                "from": {
+                    "file": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\values\\color.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 364,
+                        "endColumn": 38,
+                        "endOffset": 398
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 690,
+                    "endColumn": 57,
+                    "endOffset": 743
+                },
+                "from": {
+                    "file": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 748,
+                    "endColumn": 55,
+                    "endOffset": 799
+                },
+                "from": {
+                    "file": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 804,
+                    "endColumn": 52,
+                    "endOffset": 852
+                },
+                "from": {
+                    "file": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 162,
+                        "endColumn": 52,
+                        "endOffset": 210
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 857,
+                    "endColumn": 48,
+                    "endOffset": 901
+                },
+                "from": {
+                    "file": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 58,
+                        "endColumn": 48,
+                        "endOffset": 102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 906,
+                    "endColumn": 52,
+                    "endOffset": 954
+                },
+                "from": {
+                    "file": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 108,
+                        "endColumn": 52,
+                        "endOffset": 156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 959,
+                    "endColumn": 62,
+                    "endOffset": 1017
+                },
+                "from": {
+                    "file": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 0,
+                        "startOffset": 13,
+                        "endColumn": 59,
+                        "endOffset": 72
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1022,
+                    "endColumn": 63,
+                    "endOffset": 1081
+                },
+                "from": {
+                    "file": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 1,
+                        "startOffset": 75,
+                        "endColumn": 61,
+                        "endOffset": 135
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1086,
+                    "endLine": 34,
+                    "endColumn": 11,
+                    "endOffset": 1690
+                },
+                "from": {
+                    "file": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 1,
+                        "startOffset": 769,
+                        "endLine": 29,
+                        "endColumn": 11,
+                        "endOffset": 1384
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 1695,
+                    "endLine": 46,
+                    "endColumn": 11,
+                    "endOffset": 2298
+                },
+                "from": {
+                    "file": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 1,
+                        "startOffset": 141,
+                        "endLine": 15,
+                        "endColumn": 11,
+                        "endOffset": 755
+                    }
+                }
+            }
+        ]
+    }
+]

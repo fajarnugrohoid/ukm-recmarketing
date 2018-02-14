@@ -1,0 +1,87 @@
+[
+    {
+        "outputFile": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\build\\intermediates\\res\\merged\\debug\\values-v11\\values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 62,
+                    "endOffset": 113
+                },
+                "from": {
+                    "file": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 1,
+                        "startOffset": 16,
+                        "endColumn": 60,
+                        "endOffset": 75
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 118,
+                    "endColumn": 63,
+                    "endOffset": 177
+                },
+                "from": {
+                    "file": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 1,
+                        "startOffset": 78,
+                        "endColumn": 61,
+                        "endOffset": 138
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 182,
+                    "endLine": 15,
+                    "endColumn": 11,
+                    "endOffset": 786
+                },
+                "from": {
+                    "file": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 1,
+                        "startOffset": 772,
+                        "endLine": 30,
+                        "endColumn": 11,
+                        "endOffset": 1387
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 791,
+                    "endLine": 27,
+                    "endColumn": 11,
+                    "endOffset": 1394
+                },
+                "from": {
+                    "file": "D:\\project\\android\\CustomerUKMStudio\\customerUKM\\src\\main\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 1,
+                        "startOffset": 144,
+                        "endLine": 16,
+                        "endColumn": 11,
+                        "endOffset": 758
+                    }
+                }
+            }
+        ]
+    }
+]

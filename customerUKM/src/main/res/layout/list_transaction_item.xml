@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FCF8E3"
+    android:orientation="horizontal"
+    android:padding="2dip" >
+ 
+    <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip">
+ 
+  
+        <ImageView
+              android:id="@+id/image_view"
+              android:layout_width="60dip"
+              android:layout_height="60dip"
+              android:layout_marginBottom="5dp"
+              android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/txt_kategori"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="13dip" />
+
+    <TextView
+        android:id="@+id/txt_product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Product"
+        android:textColor="#040404"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:typeface="sans" />
+ 
+    <!-- Artist Name -->
+ 	</LinearLayout>
+     <!-- Rightend Duration -->
+    
+     <TextView
+         android:id="@+id/txt_price"
+         android:layout_width="wrap_content"
+         android:layout_height="15dip"
+         android:layout_alignParentTop="true"
+         android:layout_alignRight="@+id/duration"
+         android:gravity="right"
+         android:text="Price"
+         android:textColor="#10bcc9"
+         android:textSize="13dip"
+         android:textStyle="bold" />
+    
+    <!-- Rightend Duration -->
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:gravity="right"
+        android:layout_below="@id/txt_price"
+        android:text="5:45"
+        android:layout_marginRight="5dip"
+        android:textSize="10dip"
+        android:textColor="#10bcc9"
+        android:textStyle="bold"/>
+
+   
+ 
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ukm.customerUKM"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="7"
+        android:targetSdkVersion="11" />
+
+     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE"/>
+    
+    
+    <application 
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" 
+        android:theme="@style/AppTheme"
+        >
+        <activity
+            android:name="com.ukm.facebookLogin.Login_backup"
+            android:label="@string/app_name"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" /> 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity  android:name="com.ukm.customerUKM.Home"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity  android:name="com.ukm.customerUKM.SearchDetail"
+            android:label="@string/app_name">
+        </activity>
+        
+         <activity  android:name="com.ukm.customerUKM.Register_customer"
+            android:label="@string/app_name">
+        </activity>
+        
+         
+        <activity  android:name="com.ukm.customerUKM.List_produk"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden"
+            >
+        </activity>
+        
+        <activity  android:name="com.ukm.customerUKM.GetVoucher"
+            android:label="@string/app_name">
+        </activity>
+         <activity  android:name="com.facebook.androidhive.AndroidFacebookConnectActivity"  
+            android:label="@string/app_name">
+        </activity>
+        
+        <activity  android:name="com.ukm.customerUKM.MenuActivity"
+            android:label="@string/app_name">
+        </activity>
+        
+      
+           
+        <activity android:name="com.ukm.customerUKM.SlideoutActivity"
+            android:label="@string/app_name"   >
+        </activity>
+    
+        <activity  android:name="com.ukm.customerUKM.MenuFragment"
+            android:label="@string/app_name">
+        </activity>
+        
+         
+    </application>
+
+</manifest>

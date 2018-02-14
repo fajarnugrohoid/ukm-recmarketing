@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\android\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="D:\project\android\CustomerUKMStudio\customerUKM\build\intermediates\pre-dexed\debug\support-annotations-20.0.0_fa1c07f61feec446e19d3831748a8c5252d195cc.jar" />
+    </item>
+    <item
+        jar="D:\project\android\CustomerUKMStudio\customerUKM\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="D:\project\android\CustomerUKMStudio\customerUKM\build\intermediates\pre-dexed\debug\internal_impl-20.0.0_d21b931f4a224aa58ff208007896ef2102dd5f5a.jar" />
+    </item>
+    <item
+        jar="D:\project\android\CustomerUKMStudio\customerUKM\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="D:\project\android\CustomerUKMStudio\customerUKM\build\intermediates\pre-dexed\debug\com.android.support-support-v4-20.0.0_732b02b503126cfc3dd51653e9769e7816ccf411.jar" />
+    </item>
+    <item
+        jar="D:\project\android\CustomerUKMStudio\customerUKM\build\intermediates\exploded-aar\CustomerUKMStudio\com_facebook_android\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="7927b3bf234136be98e7e781bbec836f5b1eeb15">
+        <dex dex="D:\project\android\CustomerUKMStudio\customerUKM\build\intermediates\pre-dexed\debug\CustomerUKMStudio-com_facebook_android-unspecified_ca48f8d6edb1bc8e5527ca8711ec50c9049294e6.jar" />
+    </item>
+
+</items>
